@@ -2,7 +2,7 @@ from json import load
 
 
 def get_config():
-    with open('/etc/quasar/quasar.config', 'r') as cfg:
+    with open('/etc/quasar/quasar.json', 'r') as cfg:
         return load(cfg)
 
 
